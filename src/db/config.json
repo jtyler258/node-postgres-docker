@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "api",
+    "password": "api",
+    "database": "coffee_dev",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "api",
+    "password": "api",
+    "database": "coffee_test",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "api",
+    "password": "api",
+    "database": "coffee",
+    "host": "db",
+    "port": "5432",
+    "dialect": "postgres"
+  }
+}
